@@ -90,3 +90,25 @@
 .win{
     background-color: rgba(0, 255, 0, 0.3);
 }
+
+@media only screen and (max-width: 900px) {
+
+    .game-info {
+        padding: 1rem;
+    }
+
+    .ticTacToe {
+        margin-top: 1rem;
+    }
+
+    .btn {
+        bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .btn {
+        bottom: 11rem;
+        /* top: -3rem; */
+    }
+}
