@@ -105,3 +105,10 @@
         bottom: 3rem;
     }
 }
+
+@media only screen and (max-width: 600px){
+    .btn{
+        bottom: 11rem;
+        /* top: -3rem; */
+    }
+}
