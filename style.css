@@ -71,7 +71,7 @@
 .btn{
     color: white;
     position: absolute;
-    bottom: 1rem;
+    bottom: 3rem;
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(255, 255, 255, 0.15);
@@ -91,6 +91,7 @@
     background-color: rgba(0, 255, 0, 0.3);
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 900px) {
 
     .game-info {
@@ -102,12 +103,30 @@
     }
 
     .btn {
+=======
+@media only screen and (max-width: 900px){
+
+    .game-info{
+        padding: 1rem;
+    }
+
+    .ticTacToe{
+        margin-top: 1rem;
+    }
+
+    .btn{
+>>>>>>> fdc63a18106760e0f48fffd87869a6a750c2af90
         bottom: 3rem;
     }
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 600px) {
     .btn {
+=======
+@media only screen and (max-width: 600px){
+    .btn{
+>>>>>>> fdc63a18106760e0f48fffd87869a6a750c2af90
         bottom: 11rem;
         /* top: -3rem; */
     }

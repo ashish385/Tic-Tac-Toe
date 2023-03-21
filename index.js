@@ -70,6 +70,7 @@ function checkGameOver() {
         newGameBtn.classList.add("active");
     } 
 
+    // when match has tied 
     let fillCount = 0;
     gameGrid.forEach((box) => {
         if (box !== "") {
@@ -95,10 +96,12 @@ function handleClick(index) {
     }
 }
 
+// check boxes X or O
 boxes.forEach((box, index) => {
     box.addEventListener("click", () => {
         handleClick(index);
     })
 })
 
+// add event listner on button
 newGameBtn.addEventListener('click', initGame);
